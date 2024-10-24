@@ -1,6 +1,6 @@
 const { uploadFileToCloudinary } = require("../config/cloudinary");
 const Post = require("../model/Post");
-const Story = require("../model/story");
+const Story = require("../model/Story");
 const response = require("../utils/responseHandler");
 
 const createPost = async (req, res) => {
