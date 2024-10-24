@@ -23,7 +23,7 @@ import { LogIn } from "lucide-react";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { loginUser, registerUser } from "@/service/auth.service";
 import toast from "react-hot-toast";
-const page = () => {
+const Page = () => {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(true);
   const registerSchema = Yup.object().shape({
@@ -338,4 +338,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
